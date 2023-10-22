@@ -1,0 +1,49 @@
+body{
+    
+    background-color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.container{
+    max-width: 600px;
+   margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px;
+
+}
+h1{
+text-align: center;
+color: rgb(53, 53, 9);
+}
+label{
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+#password{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px rgb(53, 53, 9);
+}
+#Generate{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(73, 11, 0);
+    box-shadow: 0px 0px 10px rgb(53, 53, 9);
+    cursor: pointer;
+
+}
+#Generate:hover{
+    background-color: blueviolet;
+}
