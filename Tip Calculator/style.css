@@ -1,0 +1,57 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(63, 35, 3);
+}
+.container{
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: rgb(128, 77, 2);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow:  0 0 10px rgb(100, 84, 60);
+}
+h1{
+    text-align: center;
+}
+form{
+display: flex;
+flex-direction: column;
+}
+label{
+    margin-bottom: 10px;
+}
+input{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+button{
+    padding: 5px;
+    background-color: rgb(110, 11, 11);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 100%;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+button :hover{
+    background-color: azure;
+    color: rgb(71, 7, 7);
+}
+.get{
+     margin-top: 30px;
+    border-top: 1px solid rgb(59, 39, 39);
+
+
+}
+.get p{
+    margin-top: 15px;
+
+}
+.get span{
+font-weight: bold;}
